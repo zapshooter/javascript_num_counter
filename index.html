@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Number log</h1>
+    <h2 id="count">0</h2>
+
+    <button id="increament" onclick="inc()">PUSH</button>
+    <button id="decreament" onclick="dec()">PULL</button>
+    <button id="save" onclick="save()">Save</button>
+
+
+    <!-- the save button for saving the count,
+    calls the save function in js file-->
+
+    <h3 id="save-el">Log </h3>
+    <script src="index.js"></script>
+
+</body>
+</html>
+
+<!-- so the first thing here isthe count id of h2
+that will be passed to the getElementbyid function to the js file 
+
+
+the id increament of the button is used nowhere here
+but the onclick value here is the function name to update the value in js file -->
